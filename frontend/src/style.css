@@ -171,6 +171,11 @@ th { color: var(--hs-muted); font-weight: 700; font-size: 0.78rem; }
 .btn:hover { filter: brightness(1.08); }
 .btn:disabled { opacity: 0.5; cursor: not-allowed; }
 .muted { color: var(--hs-muted); }
+.hs-error { color: var(--hs-bad); font-size: 0.85rem; }
+.hs-roster-row select {
+  font: inherit; font-size: 0.8rem; color: var(--hs-ink);
+  background: var(--hs-clip); border: 1px solid var(--hs-line); border-radius: 3px;
+}
 .stat { font-size: 1.5rem; font-weight: 800; font-family: "Segoe UI", "PingFang SC", sans-serif; }
 
 .grid-board { display: inline-grid; gap: 4px; padding: 0.5rem; background: rgba(255,255,255,0.3); border: 1px solid var(--hs-line); }
